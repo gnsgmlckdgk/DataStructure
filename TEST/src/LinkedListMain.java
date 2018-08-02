@@ -20,6 +20,9 @@ public class LinkedListMain {
 		System.out.println("모든 데이터 출력");
 		list.showAllData();
 		
+		// 데이터 수 출력
+		System.out.println("데이터 수 : " + list.count());
+		
 		// 데이터 3, 6 삭제
 		if(list.first()) {
 			if(list.getData() == 5 || list.getData() == 6)
@@ -35,5 +38,8 @@ public class LinkedListMain {
 		// 모든 데이터 출력
 		System.out.println("\n삭제후 데이터");
 		list.showAllData();
+		
+		// 데이터 수 출력
+		System.out.println("데이터 수 : " + list.count());
 	}
 }

@@ -89,6 +89,8 @@ public class LinkedList<T> implements List<T>{
 		this.cur = null;
 		this.cur = this.before;
 		
+		this.numOfData--;
+		
 		return delData;
 	}
 	
