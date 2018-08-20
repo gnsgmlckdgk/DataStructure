@@ -26,8 +26,6 @@ public class LinkedList<T> implements List<T>{
 		this.numOfData = 0;
 	}
 	
-	
-	/* s:ADT */
 	public void insert(T data) {
 		Node<T> newNode = new Node<T>();
 		newNode.data = data;
@@ -99,5 +97,4 @@ public class LinkedList<T> implements List<T>{
 		
 	}
 	
-	/* e:ADT */
 }

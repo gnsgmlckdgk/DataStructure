@@ -1,8 +1,5 @@
 package BinaryTree;
 
-import java.util.Comparator;
-import java.util.Objects;
-
 /**
  * 이진탐색 트리
  * @author gnsgm
