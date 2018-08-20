@@ -9,7 +9,7 @@ public class LinkedList<T> implements List<T>{
 	private Node<T> head;		// 첫번째 Node
 	private Node<T> before;		// 이전 Node
 	private Node<T> cur;		// 현재 Node
-	private int numOfData;	// 저장된 데이터 수
+	private int numOfData;		// 저장된 데이터 수
 	
 	/**
 	 * 생성자

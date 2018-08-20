@@ -1,9 +1,12 @@
+/* 이진트리 테스트
+
 import List.List;
 import List.LinkedList;
 
 public class LinkedListMain {
 	public static void main(String[] args) {
 
+		
 		// 연결리스트 생성
 		List<Integer> list = new LinkedList<Integer>();
 		
@@ -40,6 +43,8 @@ public class LinkedListMain {
 		list.showAllData();
 		
 		// 데이터 수 출력
-		System.out.println("데이터 수 : " + list.count());
+		System.out.println("데이터 수 : " + list.count());		
 	}
 }
+
+*/
