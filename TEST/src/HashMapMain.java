@@ -1,3 +1,5 @@
+/* HashMap 테스트
+
 import HashMap.HashMap;
 import HashMap.Map;
 import HashMap.Student;
@@ -8,27 +10,27 @@ public class HashMapMain {
 		
 		Student std1 = new Student();
 		std1.setGrade(1);
-		std1.setId(101);
+		std1.setId(104);
 		std1.setName("홍길동");
 		
 		Student std2 = new Student();
 		std2.setGrade(2);
-		std2.setId(102);
+		std2.setId(101);
 		std2.setName("이순신");
 		
 		Student std3 = new Student();
 		std3.setGrade(1);
-		std3.setId(103);
+		std3.setId(109);
 		std3.setName("강감찬");
 		
 		Student std4 = new Student();
 		std4.setGrade(3);
-		std4.setId(104);
+		std4.setId(102);
 		std4.setName("을지문덕");
 		
 		Student std5 = new Student();
 		std5.setGrade(2);
-		std5.setId(105);
+		std5.setId(107);
 		std5.setName("광개토대왕");
 		
 		Map<Student> map = new HashMap<Student>();
@@ -70,3 +72,4 @@ public class HashMapMain {
 		}
 	}
 }
+*/
