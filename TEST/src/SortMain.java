@@ -5,7 +5,7 @@ import Sort.QuickSort;
 import Sort.SelectionSort;
 import Sort.Sort;
 
-public class TestMain {
+public class SortMain {
 	
 	public static void main(String[] args) {
 
