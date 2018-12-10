@@ -1,4 +1,5 @@
 import Common.CommonUtil;
+import Sort.BubbleSort;
 import Sort.InsertionSort;
 import Sort.MergeSort;
 import Sort.QuickSort;
@@ -14,7 +15,7 @@ public class SortMain {
 		CommonUtil.showAllIntArr(arr);
 		System.out.println();
 		
-		Sort sort = new QuickSort();
+		Sort sort = new BubbleSort();
 		sort.sorting(arr, true);
 		CommonUtil.showAllIntArr(arr);
 		

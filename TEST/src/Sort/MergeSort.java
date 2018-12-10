@@ -97,7 +97,7 @@ public class MergeSort implements Sort {
 				result[sidx] = arr[ridx++];
 			}
 			
-			sidx++;	
+			sidx++;
 		}
 		
 		// 왼쪽 배열에 남아있으면
